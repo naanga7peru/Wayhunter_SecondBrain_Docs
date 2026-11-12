@@ -1,0 +1,25 @@
+{
+  "prepared_at": "2026-11-11",
+  "original_zip": "SecundBrain.zip",
+  "original_tracker": "Wayhunter_7_Member_Work_Tracker_Dec01_2026.xlsx",
+  "legacy_milestones": 70,
+  "legacy_tasks": 490,
+  "legacy_not_started": 484,
+  "legacy_demo_verify": 6,
+  "legacy_accepted": 0,
+  "new_member_milestones": 70,
+  "new_derived_tasks": 33,
+  "aligned_tasks": 523,
+  "legacy_tasks_moved_owner": 148,
+  "owner_task_counts": {
+    "M1": 106,
+    "M2": 59,
+    "M3": 69,
+    "M4": 73,
+    "M5": 74,
+    "M6": 75,
+    "M7": 67
+  },
+  "status": "Proposed planning rebaseline; statuses untouched; not proof of implementation",
+  "business_rules_priority": "knowledge/LATEST_APPROVED_2026-11-11.md"
+}

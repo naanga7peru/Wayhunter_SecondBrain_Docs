@@ -2,15 +2,15 @@
 
 **Scope:** Academic Final Project; folder structure and coding have **not started**. This is assignment/coordination, not a business rule or verified implementation. Each member owns Flutter + ASP.NET API + Angular Admin + SQL/EF design + tests for their module. Three separate GitHub repos; no commits are asserted.
 
-| Owner | End-to-end module                       | Admin Module Ownership         | Shared interfaces                                                               |
-| ----- | --------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------- |
-| M1    | Identity, Profile, Friends              | ADM-01, ADM-03, ADM-17         | UserId, auth/roles, social, audit permissions                                   |
-| M2    | Traveler Planning, Maps, AI Trip        | ADM-07                         | Trip drafts, places/routing, historical reuse, Traveler ranking data            |
-| M3    | Active Trip, Safety, Notifications      | ADM-08, ADM-09, ADM-16         | Start/Finish sessions, group GPS consent, hazard routes, notifications          |
-| M4    | Hunter & Places                         | ADM-04, ADM-06                 | Live 360/photo evidence, duplicate candidates, approval; emits eligible rewards |
-| M5    | Games & Leaderboard UI                  | ADM-10                         | Game create/proof, single winner, 30-day archive; ranking display contracts     |
-| M6    | Coins, Wallet, Vouchers                 | ADM-11, ADM-12, ADM-13         | Authoritative Coins ledger, holds, approval debit, demo voucher                 |
-| M7    | Home, Advertising, Campaigns, Analytics | ADM-02, ADM-05, ADM-14, ADM-15 | Dashboard aggregates, ads/campaigns and reports                                 |
+| Owner | End-to-end module | Admin Module Ownership | Shared interfaces |
+|---|---|---|---|
+| M1 | Identity, Profile, Friends | ADM-01, ADM-03, ADM-17 | UserId, auth/roles, social, audit permissions |
+| M2 | Traveler Planning, Maps, AI Trip | ADM-07 | Trip drafts, places/routing, historical reuse, Traveler ranking data |
+| M3 | Active Trip, Safety, Notifications | ADM-08, ADM-09, ADM-16 | Start/Finish sessions, group GPS consent, hazard routes, notifications |
+| M4 | Hunter & Places | ADM-04, ADM-06 | Live 360/photo evidence, duplicate candidates, approval; emits eligible rewards |
+| M5 | Games & Leaderboard UI | ADM-10 | Game create/proof, single winner, 30-day archive; ranking display contracts |
+| M6 | Coins, Wallet, Vouchers | ADM-11, ADM-12, ADM-13 | Authoritative Coins ledger, holds, approval debit, demo voucher |
+| M7 | Home, Advertising, Campaigns, Analytics | ADM-02, ADM-05, ADM-14, ADM-15 | Dashboard aggregates, ads/campaigns and reports |
 
 ## Cross-module boundaries
 - M1 owns identity/auth conventions; no member duplicates token or Admin-role logic.
