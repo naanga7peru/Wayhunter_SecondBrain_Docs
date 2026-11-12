@@ -1,0 +1,10 @@
+WAYHUNTER OBSIDIAN GRAPH PACK
+
+Option A (recommended for first test): Extract the ZIP -> Obsidian -> Open another vault -> Open folder as vault -> select Wayhunter_Obsidian_Graph_Ready. Open "Wayhunder Home" and then Open graph view (Ctrl+P).
+
+Option B (keep existing SecundBrain): Copy the files/folders inside Wayhunter_Obsidian_Graph_Ready into the root of your current Obsidian vault. Review before overwriting existing files, especially "Wayhunder Home.md", "wayhunder.md", READ_THIS_FIRST... and RULES_ONLY...! The uploaded source PDFs are unchanged; the two home navigation notes contain new links.
+
+This ZIP contains only the 9 files uploaded for this request (plus new map notes), not the entire original Second Brain. The referenced LATEST_APPROVED_2026-11-11.md was not included in this upload, so it is not recreated.
+
+Obsidian Graph: Settings/Filters -> turn ON attachments if you want PDF nodes too.
+

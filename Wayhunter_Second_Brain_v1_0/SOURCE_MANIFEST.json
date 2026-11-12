@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-11",
+  "git_access": "unverified 404 for three target repos",
+  "sources": [
+    {
+      "file": "sources/01_Master_BRD_v2.1.pdf",
+      "version": "v2.1",
+      "bytes": 700681,
+      "sha256": "84c5db6e08a5c0672d0b81312194242b988e478f64f4b369946e4cccf64bc6f1"
+    },
+    {
+      "file": "sources/02_Admin_17_Modules_Working_Process_v1.1.pdf",
+      "version": "v1.1",
+      "bytes": 169253,
+      "sha256": "e6fb530fece8855bd885a96998a820ba78095e2fbc7f2abc2724cfc60130c4ea"
+    },
+    {
+      "file": "sources/03_Flutter_Architecture_v2.1.pdf",
+      "version": "v2.1",
+      "bytes": 2601075,
+      "sha256": "1cb495326fe479fe463b1391d41b31ed3b11315e4271846f50217601fe4012a5"
+    },
+    {
+      "file": "sources/04_Angular_Admin_Architecture_v3.1.pdf",
+      "version": "v3.1",
+      "bytes": 134965,
+      "sha256": "31ea0684861aaf44c2a0d6a805b6d1ccf0f8f0aad27df4d0ef9aa2e7e8d5691a"
+    },
+    {
+      "file": "sources/05_Full_ERD_v1.1.pdf",
+      "version": "v1.1",
+      "bytes": 472975,
+      "sha256": "90044b634c007bf32e7d9235f0ed630b86d190bc8a5bccb1ee09b0cad986f74c"
+    }
+  ]
+}
