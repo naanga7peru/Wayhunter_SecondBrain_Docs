@@ -1,7 +1,8 @@
-Way_Hunter/
 .obsidian/
+Way_Hunter/
 .env
 .env.*
 *.pem
 *.pfx
 *.key
+~$*
