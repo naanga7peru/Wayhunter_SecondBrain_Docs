@@ -1,15 +1,15 @@
 # WAYHUNTER — M2 Traveler Cross-Module Conflict Prevention Contracts
 
-**Date:** 2026-11-13  
-**Doc ID:** WH-CONTRACT-M2-001  
-**Status:** `PROPOSED — PENDING TEAM-LEADER + AFFECTED OWNER REVIEW`  
-**Current assigned M2 owner:** Thadsha  
-**Scope:** Flutter + ASP.NET Core Backend, mock-first development; Angular Admin later  
+**Date:** 2026-11-13
+**Doc ID:** WH-CONTRACT-M2-001
+**Status:** `PROPOSED — PENDING TEAM-LEADER + AFFECTED OWNER REVIEW`
+**Current assigned M2 owner:** Thadsha
+**Scope:** Flutter + ASP.NET Core Backend, mock-first development; Angular Admin later
 **Does not mean:** running endpoints, connected APIs, approved ownership migration, working mobile/DB features, or completed project tasks.
 
 ## 0. Source-of-truth and legacy tracker mismatch (ACTION REQUIRED)
 
-**Current proposed 523-task allocation:** M1 Shayanthan = Identity/Profile/Friends; M2 Thadsha = Traveler Planning/Maps/AI; M3 Mathi = Active Trip/Safety; M4 Neela = Hunter/Places; M5 Thuvarathan = Games; M6 Kaviyan = Coins/Wallet; M7 Thashvini = Home/Ads/Navigation.  
+**Current proposed 523-task allocation:** M1 Shayanthan = Identity/Profile/Friends; M2 Thadsha = Traveler Planning/Maps/AI; M3 Mathi = Active Trip/Safety; M4 Neela = Hunter/Places; M5 Thuvarathan = Games; M6 Kaviyan = Coins/Wallet; M7 Thashvini = Home/Ads/Navigation.
 **Original 490-task screenshot instead lists:** M2 Thadsha = Friends/Safety/Social; M3 Mathi = Traveler/Maps/AI; M7 Thashvini = Admin Platform/Release; M1 Shayanthan includes Home. **Do not silently overwrite historical evidence.**
 
 **Resolution proposed:** Develop with 523-task ownership; team leader approves this specific allocation, then updates the active tracker Overview/member sheets, GitHub `docs/OWNERSHIP_MAP.md`, affected module briefs, and labels the historical workbook *LEGACY* rather than changing original task history. If approval is withheld, stop and explicitly reconcile responsibilities before cross-module implementation.
@@ -29,8 +29,8 @@
 
 ## 2. Draft contract M2 → M3: Planned trip handoff
 
-**Contract ID:** `M2-M3-TRIPPLAN-v0.1-DRAFT` (not a live API).  
-**Producer:** M2 Trip Planning. **Consumer:** M3 Active Trip & Safety.  
+**Contract ID:** `M2-M3-TRIPPLAN-v0.1-DRAFT` (not a live API).
+**Producer:** M2 Trip Planning. **Consumer:** M3 Active Trip & Safety.
 **Handoff event:** User selects **Start Trip** for an existing, authorized Trip Plan. M2 supplies persisted plan snapshot. M3 determines if/when a *live* session can start.
 
 **Proposed fields for review (types/validation to be confirmed jointly):**
@@ -63,7 +63,7 @@ TripPlanHandoff {
 
 ## 3. Draft contract M4 → M2: Place Picker
 
-**Contract ID:** `M4-M2-PLACE-v0.1-DRAFT` (not a live API).  
+**Contract ID:** `M4-M2-PLACE-v0.1-DRAFT` (not a live API).
 **Producer:** M4 Hunter Places. **Consumer:** M2 Place Picker/Traveler Map.
 
 **Proposed DTO:**
